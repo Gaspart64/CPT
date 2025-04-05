@@ -71,7 +71,7 @@ let messagelist = ['#puzzlename', '#errors', '#errorRate', '#elapsedTime', '#avg
 // Assign default theme for the pieces for both the board and the promotion popup window
 
 //pieceThemePath = 'https://github.com/lichess-org/lila/raw/refs/heads/master/public/piece/alpha/{piece}.svg'
-pieceThemePath = 'img/chesspieces/staunty/{piece}.svg';
+pieceThemePath = 'img/chesspieces/alpha/{piece}.svg';
 
 //import * as pawnpromo from 'pawn-promo';
 //import * as pgnhandling from 'pgn-handing'
