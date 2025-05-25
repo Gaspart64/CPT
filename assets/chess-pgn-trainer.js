@@ -288,7 +288,7 @@ function loadSettings() {
 	// Default keys and values
 	var defaults = {
 		light: '#dee3e6',
-		dark: '#8ca2ad',
+		dark: '#769457',
 		pieceIndex: '0',
 		darkmode: '0',
 		copy2clipboard: '1',
