@@ -245,6 +245,7 @@ function resizeBoards() {
  * 							  Setting to false sets the pieces instantly.
  */
 function updateBoard(animate) {
+	console.log("Updating board with FEN:", game.fen());
 	board.position(game.fen(), animate);
 }
 
@@ -1020,7 +1021,9 @@ function loadPuzzle(PGNPuzzle) {
 
 	// Set the board to the beginning position of the puzzle
 	updateBoard(false);
-
+console.log("Current FEN:", game.fen());
+console.log("Board position:", board.position());
+console.log("Piece theme path:", pieceThemePath);
 	$('#comment_annotation').append('<br>');
 
 	// If there is commentary before the first move, show it in the annotation panel
